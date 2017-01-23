@@ -176,7 +176,7 @@
 
 
 			uploader.init();
-			jQuery('#'+id).append('<div style="display:none;" id="'+hiddenId+'" ><input type="hidden" class="sweeploadEmpty" name="'+config.realName+'" value="" /></div>');
+			jQuery('#'+id).after('<div style="display:none;" id="'+hiddenId+'" ><input type="hidden" class="sweeploadEmpty" name="'+config.realName+'" value="" /></div>');
 
 			jQuery.each(eventsHandler, function(key, callback) {
 				// do not rebind post init
